@@ -1,0 +1,22 @@
+*** Creating Trace Output File 'calculator.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"uart0_driver.o"'
+### List of Objects: adding '"timer.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"lcddriver.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "uart0_driver.o" "timer.o" "main.o" "lcddriver.o" --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x40000000 --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\calculator.map" -o "calculator.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'calculator.axf'
+### ADS-LD Command File: 'calculator.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'calculator.lnp', Handle=0x0000021C
+### Writing '.lnp' file
+### ADS-LD Command file 'calculator.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
